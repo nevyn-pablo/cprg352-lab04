@@ -6,7 +6,6 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@ taglib prefix = "c" uri = "http://java.sun.com/jsp/jstl/core" %>
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -17,9 +16,9 @@
         <h1>Simple Note Keeper</h1>
         <h2>View Note</h2>
         <h3>Title: ${note.title}</h3>
-        <h3>Contents</h3>
+        <h3>Contents </h3>
         ${note.content}
-        <br>
+         <br>
         <a href="note?edit" name="edit">Edit</a>
     </body>
 </html>
